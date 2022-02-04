@@ -16,6 +16,7 @@ header > nav {
 
 header > nav > .menu {
   width: 100%;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
