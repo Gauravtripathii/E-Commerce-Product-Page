@@ -103,3 +103,59 @@
 .product-details > footer > button > img {
   margin-right: 15px;
 }
+
+.middle > hr {
+  display: none;
+}
+
+
+@media only screen and (min-width: 992px) {
+  .middle {
+    height: 70vh;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .middle > hr {
+    display: block;
+  }
+  .carousel-container {
+    width: 40%;
+  }
+  .carousel-container > .carousel .carousel-item {
+    height: 400px;
+  }
+  .product-details {
+    width: 40%;
+  }  
+  .product-details > .price-tag {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-details > .price-tag > .current {
+    width: 100%;
+    justify-content: flex-start;
+  }  
+  .product-details > .price-tag > .current > span {
+    margin-left: 20px;
+  }
+  .product-details > footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .product-details > footer > .items {
+    width: 35%;
+    background: #c0c0c0;
+  }  
+  .product-details > footer > button {
+    width: 60%;
+    height: fit-content;
+    justify-content: center;
+  }
+  
+  .product-details > footer > button > img {
+    height: 20px;
+  }
+}

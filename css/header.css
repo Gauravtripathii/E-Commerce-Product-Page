@@ -47,3 +47,35 @@ header > footer > .profile > img {
   height: 100%;
   width: 100%;
 }
+
+header > nav > nav {
+  display: none;
+}
+
+
+@media only screen and (min-width: 992px){
+  header > nav > .menu {
+    display: none;
+  }
+  header > nav > nav {
+    width: 60%;
+    display: block;
+    display: flex;
+    justify-content: space-around;
+  }
+  header > nav > nav > a {
+    color: #808080;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+  header > nav > .logo {
+    width: 30%;
+  }  
+  header > footer {
+    width: 20%;
+  }
+  header > footer > .profile {
+    width: 20%;
+  }
+}

@@ -71,3 +71,10 @@
   display: flex;
   justify-content: center;
 }
+
+@media only screen and (min-width: 992px) {
+  .shoping-cart {
+    width: 30%;
+    height: 40%;
+  }
+}
