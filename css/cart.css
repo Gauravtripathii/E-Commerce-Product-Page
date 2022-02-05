@@ -1,6 +1,6 @@
 .shoping-cart {
   position: fixed;
-  height: 30%;
+  height: 35%;
   width: 95%;
   top: 10%;
   right: 2.5%;
@@ -27,7 +27,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
 }
 
 .shoping-cart > .products {
@@ -35,6 +34,7 @@
   padding: 10px;
   display: flex;
   flex-direction: column;
+  display: none;
 }
 
 .shoping-cart > .products > header {
@@ -61,6 +61,7 @@
 }
 
 .shoping-cart > .products > button {
+  width: 100%;
   padding: 10px;
   font-weight: 600;
   border-radius: 10px;

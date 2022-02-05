@@ -19,8 +19,12 @@ minus.addEventListener("click", () => {
 
 var cart_items = document.querySelector('.items');
 var cart_total = document.querySelector('.total');
+var product_details = document.querySelector(".products");
+var empty_msg = document.querySelector(".products-e");
 
 add_to_cart.addEventListener("click", () => {
+  empty_msg.style.display = 'none';
+  product_details.style.display = 'block';
   total = items;
   cart_items.innerHTML = total;
   cart_total.innerHTML = '$'+(total*125)+'.00';
