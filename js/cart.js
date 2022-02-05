@@ -10,3 +10,4 @@ cart_btn.addEventListener("click", () => {
     cart.style.display = "block";
   }
 });
+
